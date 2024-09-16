@@ -2,9 +2,11 @@
 
 This Python tool allows users to generate hydrophilicity (Kyte-Doolittle) plots from single/multiple protein sequences provided in FASTA format. It checks for necessary dependencies like biopython and matplotlib and prompts users to install them if needed. The tool processes amino acid sequences, calculates hydropathy scores using a sliding window, and visualizes the results in a simple plot. It supports both manual sequence input and file-based sequence input, making it a versatile utility for protein sequence analysis.
 
-DOI/Cite:
+Cite:
 
 Karagol, A., & Karagol, T. (2024). An Evolutionary Statistics Toolkit for Simplified Sequence Analysis on Web with Client-Side Processing. bioRxiv, 2024-08. doi: https://doi.org/10.1101/2024.08.01.606148
+and
+Kyte, J; Doolittle, R. F. (1982). "A simple method for displaying the hydropathic character of a protein". Journal of Molecular Biology. 157 (1): 105–32.
 
 ### Installation
 
@@ -20,7 +22,7 @@ Latest version on PyPI:
 
 [![PyPI version](https://badge.fury.io/py/hydrophilicity-plot.svg)](https://badge.fury.io/py/hydrophilicity-plot)
 
-- Option 2 (for all platforms): You can run the script directly from Google Colab.
+- Option 2 (for all platforms): You can run the script directly from Google Colab: [Hydrophilicity_plot.ipynb on Google Colab](https://colab.research.google.com/github/karagol-taner/Hydrophilicity_plot/blob/main/Hydrophilicity_plot.ipynb).
 
 ### Requirements
 If you want to run the script natively on your local computer (Option 1), ensure you have Python 3.x installed on your system. 
