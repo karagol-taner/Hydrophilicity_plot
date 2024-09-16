@@ -1,11 +1,13 @@
 # Hydrophilicity plot (Kyte-Doolittle Analysis)
 
-This Python tool allows users to generate hydrophilicity (Kyte-Doolittle) plots from single/multiple protein sequences provided in FASTA format. It checks for necessary dependencies like biopython and matplotlib and prompts users to install them if needed. The tool processes amino acid sequences, calculates hydropathy scores using a sliding window, and visualizes the results in a simple plot. It supports both manual sequence input and file-based sequence input, making it a versatile utility for protein sequence analysis.
+This Python tool allows users to generate hydrophilicity/hydropathy (Kyte-Doolittle) plots from single/multiple protein sequences provided in FASTA format. It checks for necessary dependencies like biopython and matplotlib and prompts users to install them if needed. The tool processes amino acid sequences, calculates hydropathy scores using a sliding window, and visualizes the results in a simple plot. It supports both manual sequence input and file-based sequence input, making it a versatile utility for protein sequence analysis.
 
 Cite:
 
 Karagol, A., & Karagol, T. (2024). An Evolutionary Statistics Toolkit for Simplified Sequence Analysis on Web with Client-Side Processing. bioRxiv, 2024-08. doi: https://doi.org/10.1101/2024.08.01.606148
+
 and
+
 Kyte, J; Doolittle, R. F. (1982). "A simple method for displaying the hydropathic character of a protein". Journal of Molecular Biology. 157 (1): 105–32.
 
 ### Installation
