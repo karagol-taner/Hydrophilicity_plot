@@ -10,6 +10,8 @@ and
 
 Kyte, J; Doolittle, R. F. (1982). "A simple method for displaying the hydropathic character of a protein". Journal of Molecular Biology. 157 (1): 105–32.
 
+Zenodo: [![DOI](https://zenodo.org/badge/858320840.svg)](https://zenodo.org/doi/10.5281/zenodo.13769620)
+
 ### Installation
 
 - Option 1 (RECOMMENDED, for all platforms): You can install the package via pip (if you have Python 3.x on your system), and use the command hydrophilicity_plot directly:
