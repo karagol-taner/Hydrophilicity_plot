@@ -23,7 +23,9 @@ pip install hydrophilicity-plot
 ```
 hydrophilicity_plot
 ```
+- Option 3 (for all platforms): This tool also available on web: [www.tanerkaragol.com/hydrophilicity-plot](https://www.tanerkaragol.com/hydrophilicity-plot)
 
+  
 Latest version on PyPI:
 
 [![PyPI version](https://badge.fury.io/py/hydrophilicity-plot.svg)](https://badge.fury.io/py/hydrophilicity-plot)
