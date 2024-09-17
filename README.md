@@ -14,7 +14,9 @@ Zenodo: [![DOI](https://zenodo.org/badge/858320840.svg)](https://zenodo.org/doi/
 
 ### Installation
 
-- Option 1 (RECOMMENDED, for all platforms): You can install the package via pip (if you have Python 3.x on your system), and use the command hydrophilicity_plot directly:
+- Option 1 (for all platforms): You can run the script directly from Google Colab: [Hydrophilicity_plot.ipynb on Google Colab](https://colab.research.google.com/github/karagol-taner/Hydrophilicity_plot/blob/main/Hydrophilicity_plot.ipynb).
+  
+- Option 2 (for all platforms): You can install the package via pip (if you have Python 3.x on your system), and use the command hydrophilicity_plot directly:
 ```
 pip install hydrophilicity-plot  
 ```
@@ -25,8 +27,6 @@ hydrophilicity_plot
 Latest version on PyPI:
 
 [![PyPI version](https://badge.fury.io/py/hydrophilicity-plot.svg)](https://badge.fury.io/py/hydrophilicity-plot)
-
-- Option 2 (for all platforms): You can run the script directly from Google Colab: [Hydrophilicity_plot.ipynb on Google Colab](https://colab.research.google.com/github/karagol-taner/Hydrophilicity_plot/blob/main/Hydrophilicity_plot.ipynb).
 
 ### Requirements
 If you want to run the script natively on your local computer (Option 1), ensure you have Python 3.x installed on your system. 
