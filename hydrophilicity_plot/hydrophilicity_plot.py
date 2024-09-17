@@ -1,7 +1,6 @@
 import subprocess
 import importlib
 import os
-import re
 import sys
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
@@ -75,12 +74,15 @@ def calculate_kyte_doolittle(sequence, window_size=9):
     return scores
 
 
-def plot_hydropathy(sequences):
+def plot_hydropathy(sequences, fasta_path):
     try:
         import matplotlib.pyplot as plt
     except ImportError:
         print("Matplotlib is not installed. Exiting.")
         sys.exit()
+
+    # Get the folder where the FASTA file is located
+    folder = os.path.dirname(fasta_path)
 
     for header, sequence in sequences.items():
         scores = calculate_kyte_doolittle(sequence)
@@ -90,7 +92,15 @@ def plot_hydropathy(sequences):
         plt.xlabel('Amino Acid Position')
         plt.ylabel('Hydropathy Score')
         plt.axhline(0, color='black', linewidth=0.5)
-        plt.show()
+
+        
+        output_file = os.path.join(folder, f'{header}_hydropathy_plot.svg')
+        plt.savefig(output_file)
+        print(f"Plot saved to {output_file}")
+        output_file2 = os.path.join(folder, f'{header}_hydropathy_plot.png')
+        plt.savefig(output_file2)
+        print(f"Plot saved to {output_file2}")
+        plt.close()  
 
 
 def main():
@@ -105,9 +115,9 @@ def main():
         sys.exit()
 
     sequences = parse_fasta(fasta_path)
-    plot_hydropathy(sequences)
+    plot_hydropathy(sequences, fasta_path)
 
 
 if __name__ == "__main__":
+    run()
     main()
-
